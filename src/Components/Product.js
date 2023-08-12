@@ -30,6 +30,7 @@ function Product() {
             <p>Price: ${item.price}</p>
             <img src={item.imageUrl} alt={item.title} />
             <br></br>
+            <br></br>
             <button>Add to Cart</button>
         </li>
     ));
